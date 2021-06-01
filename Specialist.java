@@ -34,6 +34,7 @@ public class Specialist extends Employee {
   public void workWithClients(){
       System.out.println("I work with a client");
   }
+
     @Override
     public void goToVacation(){
         System.out.println("I'm going to watch a movie 24/7!");

@@ -48,4 +48,5 @@ public class Employee {
    public void goToVacation(){
        System.out.println("I'm going to rest!");
    }
+
 }

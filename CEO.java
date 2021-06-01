@@ -46,4 +46,5 @@ public class CEO extends Manager {
     public void goPublic(){
         System.out.println("I am working on an IPO");
     }
+
 }
