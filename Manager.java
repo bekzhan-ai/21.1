@@ -10,10 +10,13 @@ public class Manager extends Employee {
         super(fio, age, salary);
         this.hasStocks = hasStocks;
     }
-
+    @Override
+    public void goToVacation(){
+        System.out.println("I'm going home!");
+    }
     public Manager(){
     }
-    public boolean isHasStocks() {
+    public boolean getHasStocks() {
         return hasStocks;
     }
 
@@ -21,14 +24,14 @@ public class Manager extends Employee {
         this.hasStocks = hasStocks;
     }
 
-    boolean hasStocks;
-
+    private boolean hasStocks;
+    @Override
     public void print(){
         System.out.println("Manager " +
-                "fio: " + fio +
-                ", age: " + age +
-                ", salary: " + salary +
-                ", hasStocks: " + hasStocks);
+                "fio: " + getFio() +
+                ", age: " + getAge() +
+                ", salary: " + getSalary() +
+                ", hasStocks: " + getHasStocks());
 
     }
     public void writeProcedures(){

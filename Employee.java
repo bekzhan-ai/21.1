@@ -29,9 +29,9 @@ public class Employee {
         this.salary = salary;
     }
 
-    String fio;
-    int age;
-    int salary;
+    private String fio;
+    private int age;
+    private int salary;
 
     public Employee(String fio, int age, int salary) {
         this.fio = fio;
@@ -44,5 +44,8 @@ public class Employee {
                "fio: " + fio +
                ", age: " + age +
                ", salary: " + salary);
+   }
+   public void goToVacation(){
+       System.out.println("I'm going to rest!");
    }
 }

@@ -22,16 +22,20 @@ public class Specialist extends Employee {
         this.levels = levels;
     }
 
-    int levels;
-
+   private int levels;
+    @Override
   public void print(){
       System.out.println("Specialist " +
-              "fio: " + fio +
-              ", age: " + age +
-              ", salary: " + salary +
-              ", levels: " + levels);
+              "fio: " + getFio() +
+              ", age: " + getAge() +
+              ", salary: " + getSalary() +
+              ", levels: " + getLevels());
   }
   public void workWithClients(){
       System.out.println("I work with a client");
   }
+    @Override
+    public void goToVacation(){
+        System.out.println("I'm going to watch a movie 24/7!");
+    }
 }

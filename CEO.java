@@ -18,7 +18,7 @@ public class CEO extends Manager {
     public CEO(){
     }
 
-    public boolean isHasCompanyCar() {
+    public boolean getHasCompanyCar() {
         return hasCompanyCar;
     }
 
@@ -26,17 +26,21 @@ public class CEO extends Manager {
         this.hasCompanyCar = hasCompanyCar;
     }
 
-    boolean hasCompanyCar;
+    private boolean hasCompanyCar;
 
+    @Override
+    public void goToVacation(){
+        System.out.println("I am going to Hawaii!");
+    }
 
-
+    @Override
     public void print(){
         System.out.print("CEO " +
-                "fio: " + fio +
-                ", age: " + age +
-                ", salary: " + salary +
-                ", hasStocks: " + hasStocks +
-                ", hasCompanyCar: " + hasCompanyCar);
+                "fio: " + getFio() +
+                ", age: " + getAge() +
+                ", salary: " + getSalary() +
+                ", hasStocks: " + getHasStocks() +
+                ", hasCompanyCar: " + getHasCompanyCar());
 
     }
     public void goPublic(){

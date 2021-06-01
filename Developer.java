@@ -4,7 +4,10 @@ public class Developer extends Employee {
 
     public Developer(){
     }
-
+    @Override
+    public void goToVacation(){
+        System.out.println("I am going to bootcamp!");
+    }
 
     public Developer(String fio, int age, int salary, String grades) {
         super(fio, age, salary);
@@ -23,14 +26,14 @@ public class Developer extends Employee {
         this.grades = grades;
     }
 
-    String grades;
-
+   private String grades;
+    @Override
    public void print(){
        System.out.println("Developer " +
-               "fio: " + fio +
-               ", age: " + age +
-               ", salary: " + salary +
-               ", grades: " + grades);
+               "fio: " + getFio() +
+               ", age: " + getAge() +
+               ", salary: " + getSalary() +
+               ", grades: " + getGrades());
    }
    public void writeCode(){
        System.out.println("I am writing code");
