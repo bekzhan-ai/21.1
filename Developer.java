@@ -6,7 +6,7 @@ public class Developer extends Employee {
     }
     @Override
     public void goToVacation(){
-        System.out.println("I am going to bootcamp!");
+        System.out.println("\nI am going to bootcamp!");
     }
 
     public Developer(String fio, int age, int salary, String grades) {

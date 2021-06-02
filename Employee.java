@@ -1,8 +1,25 @@
 package Main2;
 
 public class Employee {
+    public static Employee[] employees = new Employee[10];
+    public static void addEmployees(Employee employee) {
+        for (int i = 0; i < employees.length; i++) {
+            if (employees[i] == null) {
+                employees[i] = employee;
+                return;
+            }
+        }
+    }
+    public static void goToVacationAll() {
 
-    public Employee(){
+            for (int i = 0; i < Employee.employees.length; i++) {
+                if (employees[i] != null) {
+                Employee.employees[i].goToVacation();
+            }
+        }
+    }
+
+    public Employee() {
     }
 
     public String getFio() {
@@ -39,14 +56,20 @@ public class Employee {
         this.salary = salary;
     }
 
-   public void print(){
-       System.out.println("Employee " +
-               "fio: " + fio +
-               ", age: " + age +
-               ", salary: " + salary);
-   }
-   public void goToVacation(){
-       System.out.println("I'm going to rest!");
-   }
+    public void print() {
+        System.out.println("Employee " +
+                "fio: " + fio +
+                ", age: " + age +
+                ", salary: " + salary);
+    }
+
+    public void goToVacation() {
+        System.out.println("\nI'm going to rest!");
+    }
+
+
+
+
+
 
 }

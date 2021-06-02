@@ -30,12 +30,12 @@ public class CEO extends Manager {
 
     @Override
     public void goToVacation(){
-        System.out.println("I am going to Hawaii!");
+        System.out.println("\nI am going to Hawaii!");
     }
 
     @Override
     public void print(){
-        System.out.print("CEO " +
+        System.out.println("CEO " +
                 "fio: " + getFio() +
                 ", age: " + getAge() +
                 ", salary: " + getSalary() +

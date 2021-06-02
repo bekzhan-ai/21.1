@@ -11,8 +11,8 @@ public class Manager extends Employee {
         this.hasStocks = hasStocks;
     }
     @Override
-    public void goToVacation(){
-        System.out.println("I'm going home!");
+    public  void goToVacation(){
+        System.out.println("\nI'm going home!");
     }
     public Manager(){
     }

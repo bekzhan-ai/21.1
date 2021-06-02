@@ -31,12 +31,12 @@ public class Specialist extends Employee {
               ", salary: " + getSalary() +
               ", levels: " + getLevels());
   }
-  public void workWithClients(){
+    public void workWithClients(){
       System.out.println("I work with a client");
   }
 
     @Override
-    public void goToVacation(){
-        System.out.println("I'm going to watch a movie 24/7!");
+    public  void goToVacation(){
+        System.out.println("\nI'm going to watch a movie 24/7!");
     }
 }
