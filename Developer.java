@@ -39,4 +39,8 @@ public class Developer extends Employee {
        System.out.println("I am writing code");
    }
 
+    @Override
+    public void goToDayOff(){
+        System.out.println("- On vacation, you can fly abroad.");
+    }
 }

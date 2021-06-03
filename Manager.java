@@ -38,4 +38,10 @@ public class Manager extends Employee {
         System.out.println("I am developing procedures");
     }
 
+    @Override
+    public void goToDayOff(){
+        System.out.println("- You must rest because you are working hard.");
+    }
+
+
 }

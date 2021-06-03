@@ -39,4 +39,9 @@ public class Specialist extends Employee {
     public  void goToVacation(){
         System.out.println("\nI'm going to watch a movie 24/7!");
     }
+
+    @Override
+    public void goToDayOff(){
+        System.out.println("- Leisure increases employee efficiency.");
+    }
 }

@@ -47,4 +47,9 @@ public class CEO extends Manager {
         System.out.println("I am working on an IPO");
     }
 
+    @Override
+    public void goToDayOff(){
+        System.out.println("- Take this damn vacation!");
+    }
 }
+//this object == joke

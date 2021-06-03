@@ -1,6 +1,6 @@
 package Main2;
 
-public class Employee {
+public abstract class Employee {
     public static Employee[] employees = new Employee[10];
     public static void addEmployees(Employee employee) {
         for (int i = 0; i < employees.length; i++) {
@@ -68,8 +68,7 @@ public class Employee {
     }
 
 
-
-
+    public abstract void goToDayOff();
 
 
 }
