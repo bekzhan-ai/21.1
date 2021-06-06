@@ -1,5 +1,3 @@
-package Main;
-
 class ObjectClone  implements Cloneable{
 
     ObjectClone () {
