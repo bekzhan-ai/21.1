@@ -1,4 +1,3 @@
-package Main;
 import static java.lang.Math.random;
 import static java.lang.Math.pow;
 import static java.lang.Math.abs;
