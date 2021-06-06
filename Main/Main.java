@@ -1,4 +1,4 @@
-package basic;
+package Main;
 
 
 import CEO.CEO;
