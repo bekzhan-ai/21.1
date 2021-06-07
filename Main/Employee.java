@@ -1,4 +1,4 @@
-package Main2;
+package Main;
 
 public abstract class Employee {
     public static Employee[] employees = new Employee[10];
