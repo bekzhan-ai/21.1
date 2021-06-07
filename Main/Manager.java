@@ -1,4 +1,4 @@
-package Main2;
+package Main;
 
 public class Manager extends Employee {
 
