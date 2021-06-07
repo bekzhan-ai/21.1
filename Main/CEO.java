@@ -1,4 +1,4 @@
-package Main2;
+package Main;
 
 public class CEO extends Manager {
     public CEO(boolean hasStocks, boolean hasCompanyCar) {
