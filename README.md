@@ -1,1 +1,1 @@
-# my homework for java courses
+# my homework for java course
