@@ -18,7 +18,7 @@ public class Main {
 
     }
 
-    public static void main(String[] args) throws NegativeValueException {
+    public static void main(String[] args) {
         ArrayList<Integer>baseRadiusArrList = new ArrayList<>();
         ArrayList<Integer>heightArrList = new ArrayList<>();
 
