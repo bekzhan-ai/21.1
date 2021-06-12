@@ -14,14 +14,13 @@ public class Main {
         books.add("Резчик");
         System.out.println(books);
 
-        books.remove(books.size() - 1);
+        String get = books.remove(books.size() - 1);
         System.out.println(books);
 
-        books.set(books.size() - 1, "Резчик"); //хм, мне кажется, что тут, что не так
-        System.out.println(books);
+        books.set(books.size() - 1, get);
+        System.out.println(books.get(books.size() - 1));
 
         books.clear();
-        System.out.println(books);
 
         books.add("Искатель ветра");
         books.add("Нерождённый");
